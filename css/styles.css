@@ -247,6 +247,9 @@ body {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .three-text-head {
     font-family: Roboto;
@@ -404,7 +407,7 @@ body {
 }
 .social-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
     margin-top: 8px;
     
@@ -412,19 +415,21 @@ body {
     
 }
 .social-list-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 0;
     width: 40px;
     height: 40px;
-    background-color: #404BBF;
+    background-color: #4d5ae5;
     border-radius: 50%;
     padding: 12px;
-        
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+         
     }
 .social-list-link:hover, 
 .social-list-link:focus {
-    background-color: #31D0AA;
+    background-color: #404bbf;;
 }
 
 .block-list-link {
