@@ -332,6 +332,8 @@ body {
 
 .four-list {
     width: calc((100% - 48px) / 3);
+    position: relative;
+    overflow: hidden;
 }
 
 .app-header {
@@ -439,4 +441,19 @@ body {
 .block-list-icons {
     fill: #2E2F42;
    
+}
+/* ------------sectio 4 ---add text------ */
+.overlays-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    padding-left: 32px;
+    padding-top: 40px;
+    transform: translateY(500%);
+    
+}
+
+.four-list:hover .overlays-card {
+    transform: translateY(0);
 }
