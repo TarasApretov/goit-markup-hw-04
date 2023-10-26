@@ -225,6 +225,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .two-p-text {
@@ -394,4 +395,48 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-/* ------------------------------- */
+/* --------------ICONS----------------- */
+.social-list-icons {
+    fill: white;
+    stroke: white;
+}
+.social-list {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
+    
+    
+    
+}
+.social-list-link {
+    display: block;
+    line-height: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #404BBF;
+    border-radius: 50%;
+    padding: 12px;
+        
+    
+    }
+.social-list-link:hover, 
+.social-list-link:focus {
+    background-color: #31D0AA;
+}
+
+.block-list-link {
+    display: block;
+    line-height: 0;
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding-left: 100px;
+    padding-top: 24px;}
+
+.block-list-icons {
+    fill: #2E2F42;
+   
+}
