@@ -402,8 +402,8 @@ body {
 }
 /* --------------ICONS----------------- */
 .social-list-icons {
-    fill: white;
-    stroke: white;
+    fill: #f4f4fd;
+    stroke: #f4f4fd;
 }
 .social-list {
     display: flex;
@@ -433,7 +433,9 @@ body {
 }
 
 .block-list-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 0;
     width: 264px;
     height: 112px;
@@ -441,7 +443,8 @@ body {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     padding-left: 100px;
-    padding-top: 24px;}
+    padding-top: 24px;
+    margin-bottom: 8px;}
 
 .block-list-icons {
     fill: #2E2F42;
