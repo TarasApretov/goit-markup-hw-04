@@ -91,7 +91,8 @@ body {
    padding: 24px 0;
    position: relative; 
    color: #404bbf;
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 
    
@@ -162,7 +163,7 @@ body {
    color: #434455;
    display: flex;
    gap: 40px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .address-li:hover, .address-li:focus {
@@ -173,6 +174,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .section-one-text {
     background-color: #2E2F42;
     padding: 188px 0;
+
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section_1/people-office\ 1.png);
     max-width: 1440px;
     background-repeat: no-repeat;
